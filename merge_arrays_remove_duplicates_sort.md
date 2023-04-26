@@ -2,7 +2,7 @@
 
 Write a function called `merge()` that takes one or more arrays as parameters and returns the arrays merged together with all duplicates removed and with the values sorted in ascending order.
 
-## EXAMPLE:
+## Example:
 
 - Input:
 
@@ -32,7 +32,7 @@ function merge(...args){
 console.log(merge(a, b, c, d));
 ```
 
-## EXPLAINATION:
+## Explaination:
 
 - We have accepted arguments to a function using rest operator (...args)
 - Arrays have been merged using `CONCAT()` with new array and args with spread operator ([].concat(...args)).
