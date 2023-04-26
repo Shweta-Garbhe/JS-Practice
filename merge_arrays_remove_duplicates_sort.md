@@ -1,8 +1,8 @@
-# Merge dynamic number of arrays, remove duplicate elements and sort it.
+# Merge dynamic number of arrays, remove duplicate elements and sort them in ascending order.
 
 Write a function called `merge()` that takes one or more arrays as parameters and returns the arrays merged together with all duplicates removed and with the values sorted in ascending order.
 
-## Example:
+## EXAMPLE:
 
 - Input:
 
@@ -32,9 +32,9 @@ function merge(...args){
 console.log(merge(a, b, c, d));
 ```
 
-## Explaination:
+## EXPLAINATION:
 
 - We have accepted arguments to a function using rest operator (...args)
-- Arrays have been merged using CONCAT() with new array and args with spread operator ([].concat(...args)).
-- Duplicate elements removed using SET(). The Set object is used to store unique values of primitive values or object references.
-- Sorting performed using SORT(). The sort() sorts the elements as strings in alphabetical and ascending order.
+- Arrays have been merged using `CONCAT()` with new array and args with spread operator ([].concat(...args)).
+- Duplicate elements removed using `SET()`. The Set object is used to store unique values of primitive values or object references.
+- Sorting performed using `SORT()`. The sort() sorts the elements as strings in alphabetical and ascending order.
