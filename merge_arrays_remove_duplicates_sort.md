@@ -11,7 +11,6 @@ Write a function called `merge()` that takes one or more arrays as parameters an
 > var b = ["banana", "grapes"]
 > var c = ["strawberry", "kiwi"]
 > var d = ["pear", "guava"]
-
 ```
 
 - Output:
@@ -24,13 +23,13 @@ merge(a, b, c, d) should return ["apple", "banana", "cherry", "grapes", "guava",
 ## CODE:
 
 ```
-function mergeArr(...args){
+function merge(...args){
     var arrMerged = [].concat(...args);
     var arrFiltered = [...new Set(arrMerged)]
     return arrFiltered.sort();
 }
 
-console.log(mergeArr(a, b, c, d));
+console.log(merge(a, b, c, d));
 ```
 
 ## Explaination:
