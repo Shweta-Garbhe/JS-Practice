@@ -2,7 +2,7 @@
 
 Write a reduce function which will check the elements in two arrays and remove duplicates from them and merge them into single array.
 
-## EXAMPLE:
+## Example:
 
 - Input:
 
@@ -31,7 +31,7 @@ const arrFiltered = arrMerged.reduce((acc, curr) => {
 console.log(arrFiltered);
 ```
 
-## EXPLAINATION:
+## Explaination:
 
 - Arrays have been merged using `CONCAT()`.
 - `REDUCE()` used to iterate through concatenated array.
