@@ -2,7 +2,7 @@
 
 Write a code which will accept a string and check passed string is palindrome or not.
 
-## EXAMPLE:
+### EXAMPLE:
 
 - Input:
 
@@ -16,7 +16,7 @@ Write a code which will accept a string and check passed string is palindrome or
  Palindrome / Not Palindrome
 ```
 
-## CODE
+### CODE
 
 ```
 const str = "Madam";
@@ -37,7 +37,7 @@ function isPalindrome(str) {
 console.log(isPalindrome(str));
 ```
 
-## EXPLAINATION:
+### EXPLAINATION:
 
 - We have passed a random strings
 - First we have coverted the string to avoid capital/small checks then we have reversed the string with `.split("").reverse().join("")`.
