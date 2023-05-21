@@ -1,6 +1,6 @@
 # Palindrome
 
-Write a code which will accept a strings and check passed string is palindrome or not.
+Write a code which will accept a string and check passed string is palindrome or not.
 
 ## EXAMPLE:
 
